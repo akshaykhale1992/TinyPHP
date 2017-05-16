@@ -29,7 +29,7 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   
   In errors folder you may include your Error files, right now I have added 404.blade.php which gets loaded for invalid request.
   
-  ## How to get started
+  ## How to get started?
   
   Just clone the repository of download it from [here](https://github.com/akshaykhale1992/TinyPHP/archive/master.zip)
   
@@ -46,7 +46,7 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   and then execute ```php -S localhost:8000``` and you can check the URL 
   [http://localhost:8000/](http://localhost:8000/contact) in browser.
   
-  ## How to add more Pages
+  ## How to add more Pages?
   
   Right now only home and about pages are there in the framework, if you want to add more pages you can do that by simply
   adding the method in *controllers/Controller.php*.
