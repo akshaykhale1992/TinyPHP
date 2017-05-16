@@ -49,20 +49,20 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   ## How to add more Pages?
   
   Right now only home and about pages are there in the framework, if you want to add more pages you can do that by simply
-  adding the method in *controllers/Controller.php*.
-  The method name will be dependent on the URL
+  adding the methods in *controllers/Controller.php*. The method name will be dependent on the URL.
   
   Eg. If you want contact URL to be active then you can add following method in *Controller.php*
   
   ```
-  public function about()
+  public function contact()
   {
 	  return $this->renderer->render('contact', []);
   }
   ```
   
   along with the method you will need to add `contact.blade.php` file in views folder,
-  after that you will be able to visit [http://localhost:8000/contact](http://localhost:8000/contact) page.
+  after that you will be able to visit [http://localhost:8000/contact](http://localhost:8000/contact) page untill then it will render
+  errors/404.blade.php file.
   
   If you want to add *localhost:8000/about/me* then you will have to add method with name `about_me` in Controller.php.
   
