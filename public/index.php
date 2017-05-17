@@ -13,7 +13,7 @@ require __DIR__ . '/../vendor/autoload.php';
  * don't want the helper functions
  * in the framework.
  */
-require __DIR__.'/../controllers/controller.php';
+require __DIR__.'/../controllers/Controller.php';
 require __DIR__.'/../helpers.php';
 
 $path = explode('/',trim(strtolower($_SERVER['REQUEST_URI']), '/'));

@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "88e69021d36b344b853780f42bc8cf75",
     "content-hash": "5ad53684cc384a77261507e39b54a38a",
     "packages": [
         {
@@ -45,7 +46,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2015-01-29T16:04:27+00:00"
+            "time": "2015-01-29 16:04:27"
         },
         {
             "name": "illuminate/events",
@@ -88,7 +89,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-10-02T19:49:50+00:00"
+            "time": "2014-10-02 19:49:50"
         },
         {
             "name": "illuminate/filesystem",
@@ -131,7 +132,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-12-29T18:11:33+00:00"
+            "time": "2014-12-29 18:11:33"
         },
         {
             "name": "illuminate/support",
@@ -179,7 +180,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2015-01-27T20:51:43+00:00"
+            "time": "2015-01-27 20:51:43"
         },
         {
             "name": "illuminate/view",
@@ -224,7 +225,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2015-01-27T20:51:43+00:00"
+            "time": "2015-01-27 20:51:43"
         },
         {
             "name": "symfony/finder",
@@ -271,7 +272,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-03T08:01:13+00:00"
+            "time": "2015-01-03 08:01:13"
         },
         {
             "name": "windwalker/renderer",
@@ -328,7 +329,7 @@
                 "renderer",
                 "windwalker"
             ],
-            "time": "2017-01-31T15:30:06+00:00"
+            "time": "2017-01-31 15:30:06"
         },
         {
             "name": "windwalker/structure",
@@ -376,7 +377,7 @@
                 "structure",
                 "windwalker"
             ],
-            "time": "2017-03-21T01:25:47+00:00"
+            "time": "2017-03-21 01:25:47"
         }
     ],
     "packages-dev": [],
