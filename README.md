@@ -68,18 +68,14 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   
   If you want to add *localhost:8000/about/me/profile* then you will have to add method with name `about_me_profile` in Controller.php
   and so on.
-  
 
 # :wrench: Customizing
 If you want to customize the directory names and file names, you can achieve that by simply using the `.env` file. Just rename the `.env.example` to `.env` and you can alter the default variables you can add more variables and customize it the way you want...
-  
+
 ## :bouquet: Credits
 [Windwalker Renderer](https://github.com/ventoviro/windwalker-renderer)
 
 [illuminate/view](https://github.com/laravel/framework)
 [Bootstrap](http://getbootstrap.com/)
 
- 
 Thank you!!!
-  
-  
