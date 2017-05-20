@@ -1,2 +1,5 @@
 cache
 vendor
+.env
+composer.lock
+

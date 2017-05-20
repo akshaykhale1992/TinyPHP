@@ -1,9 +1,17 @@
 <?php
 
 /**
- * Loading all Libraries
+ * Loading composer Libraries
  */
 require __DIR__ . '/../vendor/autoload.php';
+
+
+/**
+ * Loading the Environment
+ * setting option
+ */
+$dotenv = new Dotenv\Dotenv(__DIR__.'/../');
+$dotenv->load();
 
 /**
  * Loading main Controller Class and
@@ -13,12 +21,13 @@ require __DIR__ . '/../vendor/autoload.php';
  * don't want the helper functions
  * in the framework.
  */
-require __DIR__.'/../controllers/Controller.php';
 require __DIR__.'/../helpers.php';
 
+require __DIR__.'/../'.getenv('CONTROLLERS_DIRECTORY','controllers').'/Controller.php';
+$paths = array(__DIR__ . '/../'.getenv('VIEWS_DIRECTORY','views'));
+$cache_path = array('cache_path' => __DIR__ . '/../'.getenv('CACHE_DIRECTORY','cache'));
+
 $path = explode('/',trim(strtolower($_SERVER['REQUEST_URI']), '/'));
-$paths = array(__DIR__ . '/../views');
-$cache_path = array('cache_path' => __DIR__ . '/../cache');
 
 $default_pages = ['index','home','default'];
 

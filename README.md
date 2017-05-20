@@ -1,11 +1,11 @@
-# Tiny PHP
+# :rocket: Tiny PHP
 
 Tiny PHP is a simple PHP Framework to create static websites using PHP.
 
 Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) Engine to render static Content.
 
 ## Understanding Tiny PHP
-### Folder Structure
+### :file_folder: Folder Structure
 - controllers
   - Controller.php
 - public
@@ -29,7 +29,7 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   
   In errors folder you may include your Error files, right now I have added 404.blade.php which gets loaded for invalid request.
   
-  ## How to get started?
+  ## :confused: How to get started?
   
   Just clone the repository of download it from [here](https://github.com/akshaykhale1992/TinyPHP/archive/master.zip)
   
@@ -46,7 +46,7 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   and then execute ```php -S localhost:8000``` and you can check the URL 
   [http://localhost:8000/](http://localhost:8000/contact) in browser.
   
-  ## How to add more Pages?
+  ## :worried: How to add more Pages?
   
   Right now only home and about pages are there in the framework, if you want to add more pages you can do that by simply
   adding the methods in *controllers/Controller.php*. The method name will be dependent on the URL.
@@ -56,7 +56,7 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   ```
   public function contact()
   {
-	  return $this->renderer->render('contact', []);
+    return $this->renderer->render('contact', []);
   }
   ```
   
@@ -69,6 +69,17 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   If you want to add *localhost:8000/about/me/profile* then you will have to add method with name `about_me_profile` in Controller.php
   and so on.
   
-  Thank you!!!
+
+# :wrench: Customizing
+If you want to customize the directory names and file names, you can achieve that by simply using the `.env` file. Just rename the `.env.example` to `.env` and you can alter the default variables you can add more variables and customize it the way you want...
+  
+## :bouquet: Credits
+[Windwalker Renderer](https://github.com/ventoviro/windwalker-renderer)
+
+[illuminate/view](https://github.com/laravel/framework)
+[Bootstrap](http://getbootstrap.com/)
+
+ 
+Thank you!!!
   
   
