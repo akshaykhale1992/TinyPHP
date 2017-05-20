@@ -69,6 +69,12 @@ Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) 
   If you want to add *localhost:8000/about/me/profile* then you will have to add method with name `about_me_profile` in Controller.php
   and so on.
   
-  Thank you!!!
+  
+## Credits
+[Windwalker Renderer](https://github.com/ventoviro/windwalker-renderer)
+[illuminate/view](https://github.com/laravel/framework)
+
+ 
+Thank you!!!
   
   
