@@ -27,9 +27,10 @@ require __DIR__.'/../'.getenv('CONTROLLERS_DIRECTORY','controllers').'/Controlle
 $paths = array(__DIR__ . '/../'.getenv('VIEWS_DIRECTORY','views'));
 $cache_path = array('cache_path' => __DIR__ . '/../'.getenv('CACHE_DIRECTORY','cache'));
 
-$path = explode('/',trim(strtolower($_SERVER['REQUEST_URI']), '/'));
+$path = explode('/', trim(strtolower($_SERVER['REQUEST_URI']), '/'));
+$path[count($path)-1] = explode('?', end($path))[0];// Removing get parameters from the Request URL
 
-$default_pages = ['index','home','default'];
+$default_pages = ['index','home','default']; //Default pages of the website
 
 if (empty($path[0]) || in_array($path[0], $default_pages)) {
 	$method = 'index'; // Loading default index method from the controller for homepage
