@@ -14,6 +14,19 @@ function sayHello()
 }
 
 /**
+ * This function returns the Application URL
+ * for the given folder location
+ * @param  String $location Folder Location
+ * @return String           Folder URL
+ */
+function baseUrl($location)
+{
+	$url = (isset($_SERVER['HTTPS'])) ? 'https://' : 'http://';
+	$url .= $_SERVER['HTTP_HOST'];
+	return $url.$location;
+}
+
+/**
  * This function is simply like an alias
  * to getenv function 
  * https://github.com/vlucas/phpdotenv

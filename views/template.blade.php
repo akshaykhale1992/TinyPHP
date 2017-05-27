@@ -7,7 +7,7 @@
 		<title>Akshay | @yield('page_title')</title>
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ baseUrl('/css/bootstrap.min.css') }}">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +21,6 @@
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
-		<script src="./js/bootstrap.min.css"></script>
+		<script src="{{ baseUrl('/js/bootstrap.min.js') }}"></script>
 	</body>
 </html>
