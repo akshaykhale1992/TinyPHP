@@ -30,7 +30,7 @@ class Controller
 	/**
 	 * This function returns default
 	 * 404 Error Page
-	 * @return [type] [description]
+	 * @return View Renders view on Browser window
 	 */
 	public function notFound()
 	{
