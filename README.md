@@ -1,5 +1,9 @@
 # :rocket: Tiny PHP
 
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/akshaykhale1992/TinyPHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/akshaykhale1992/TinyPHP/)
+[![Scrutinizer Build Status](https://scrutinizer-ci.com/g/akshaykhale1992/TinyPHP/badges/build.png?b=master)](https://scrutinizer-ci.com/g/akshaykhale1992/TinyPHP/)
+
+
 Tiny PHP is a simple PHP Framework to create static websites using PHP.
 
 Tiny PHP uses of [Laravel Blade Templating](https://laravel.com/docs/5.4/blade) Engine to render static Content.
